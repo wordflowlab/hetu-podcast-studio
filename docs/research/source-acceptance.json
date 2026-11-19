@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-11-19",
+  "unit_tests": 36,
+  "unit_failures": 0,
+  "machine_actions": 29,
+  "package_sha256": "3a58fe327df83001b35b4363a0edcf7b6149840fcce74ed7da92b13c17386c79",
+  "unit_log_sha256": "f1d367079185c31c043aace15f8ebd54ef088d003210a92de0e3b6af5bbc4aed",
+  "source_type_check": true,
+  "manifest_and_sdk_digests": true,
+  "runtime_scope": "源码及本地固定候选包，正式安装验收另行取证"
+}
