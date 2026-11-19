@@ -1,0 +1,8 @@
+{
+  "peer": {
+    "repository": "wordflowlab/hetu-documentary-studio",
+    "commit": "e7951c819d371f75073d6005af33b57063b213d2",
+    "package_sha256": "9c50bc5babcae0567b21c4081fea6950478f315f7aac5ce1b3047258357f2d43"
+  },
+  "scope": "只属于联合验收，不成为专业包运行依赖"
+}
