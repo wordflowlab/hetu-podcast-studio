@@ -1,0 +1,70 @@
+{
+  "retrieved_on": "2026-11-19",
+  "sources": [
+    {
+      "repository": "https://github.com/katspaugh/wavesurfer.js",
+      "commit": "eef9057e391698370e1a58788646432a562d63a5",
+      "license": "BSD-3-Clause",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "00a51b40c28bb7f24b7787c10695e5ea26bd23930762f49ebf2c8f712f2fc872",
+          "read_lines": [
+            1,
+            100
+          ]
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0fc992dc27cc34dde78bfeb024b4cadff6320f0dcbee2f1228efaeb533ca1364",
+          "read_lines": [
+            1,
+            29
+          ]
+        },
+        {
+          "path": "src/webaudio.ts",
+          "sha256": "2cedb8c0b055ad9d28cd14247f3b9668af0c5ca8959351e58cf67501c84700ae",
+          "read_lines": [
+            1,
+            100
+          ]
+        }
+      ],
+      "use": "只读研究，未运行上游脚本或复制实现"
+    },
+    {
+      "repository": "https://github.com/Podcastindex-org/podcast-namespace",
+      "commit": "d4036dcb1047ad654682e1142734e3acf2c13f37",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "92a14cbd5a1d3e829bdb4586e439fdb5e21525be35825d8783cda17ac2f598c8",
+          "read_lines": [
+            1,
+            90
+          ]
+        },
+        {
+          "path": "COPYING.txt",
+          "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+          "read_lines": [
+            1,
+            30
+          ]
+        },
+        {
+          "path": "docs/examples/chapters/jsonChapters.md",
+          "sha256": "d6103d37e25f2d9f6dd2a9329a5a9dcad68e976f89bb9abf3e64147c2853979a",
+          "read_lines": [
+            1,
+            80
+          ]
+        }
+      ],
+      "use": "只读研究，未运行上游脚本或复制实现"
+    }
+  ],
+  "adoption": "WaveSurfer区分真实媒体播放和波形展示；Podcast Namespace定义独立章节文件。本包使用浏览器原生试听与确定性PCM顺序剪接，导出Podcast Chapters JSON 1.2.0子集，不创建RSS服务器。波形或播放成功不代表实际听审及声音质量。"
+}

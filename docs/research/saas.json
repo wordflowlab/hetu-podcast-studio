@@ -1,0 +1,24 @@
+{
+  "retrieved_on": "2026-11-19",
+  "pages": [
+    {
+      "name": "Alitu",
+      "url": "https://alitu.com/",
+      "status": "403",
+      "exit_code": 0,
+      "sha256": "55e0ce0f9c816fa3ab90a4bb5db249f84c346a88a98cadcef05040447af4c7e7",
+      "title": "Just a moment...",
+      "scope": "公开页面；未登录、未执行产品业务"
+    },
+    {
+      "name": "Riverside",
+      "url": "https://riverside.fm/",
+      "status": "200",
+      "exit_code": 0,
+      "sha256": "ddbcaf2fe5b6cfb021090c578fe4d1d06589d0c9401ea042fe173560588ef934",
+      "title": "Riverside: HD Podcast &amp; Video Software | Free Recording &amp; Editing",
+      "scope": "公开页面；未登录、未执行产品业务"
+    }
+  ],
+  "limits": "可访问页面不等于已体验产品；HTTP失败保留原状态。"
+}
