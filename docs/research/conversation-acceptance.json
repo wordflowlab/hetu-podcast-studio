@@ -169,5 +169,12 @@
     ],
     "revised_read_and_sha256_verified": true,
     "read_revision": 3
+  },
+  "public_package_install": {
+    "original_and_revised_preserved": true,
+    "original_operation_preserved": true,
+    "skill_resources_byte_verified": 3,
+    "other_states_preserved": 35,
+    "original_34_states_preserved": true
   }
 }

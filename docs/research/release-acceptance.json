@@ -43,5 +43,18 @@
     "原创虚构采访文字与合成音画，不含真人采访语音或事实认证",
     "沿用本机已记录的Computer Use原生通道不可用；本批使用实际Electron自动化，原生窗口材质另行取证",
     "未外发、付费、正文采纳或定稿"
-  ]
+  ],
+  "public_download": "public-download.json",
+  "local_validation": "local-validation.json",
+  "website": {
+    "source_commit": "4a66f3895cb46296d4d79eb5ed3e944bec50caff",
+    "deployment": "https://8585f392.hetu-website-3uu.pages.dev",
+    "origin": "https://hetu.limeai.run",
+    "pages": 201,
+    "local_references": 12005,
+    "local_browser_tests": 40,
+    "production_browser_tests": 40,
+    "exact_responses": 14,
+    "plugin_url": "https://hetu.limeai.run/plugins/podcast-studio/"
+  }
 }
