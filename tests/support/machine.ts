@@ -85,7 +85,9 @@ export async function start(workKind="video") {
   const available = new Set(catalog.map((t:any)=>t.name));
   const actionByTool:Record<string,string>=toolRoutes;
   async function readView(action:string,input:any,expected:string,result_path="",offset=0):Promise<any>{
-    const response:any=(await client.callTool({name:"hetu_call_action",arguments:{action,input,view:{result_path,expected_result_sha256:expected,offset,limit:20,max_bytes:8192}}})).structuredContent;
+    const view={result_path,expected_result_sha256:expected,offset,limit:20,max_bytes:8192};
+    const arguments_=action==="hetu.plugins.invoke"?{action,input:{...input,view}}:{action,input,view};
+    const response:any=(await client.callTool({name:"hetu_call_action",arguments:arguments_})).structuredContent;
     assert.equal(response.status,"succeeded",JSON.stringify(response));
     const v=response.data.view;assert.equal(v.source_result_sha256,expected);
     if("value" in v)return v.value;
@@ -140,7 +142,8 @@ export async function start(workKind="video") {
     if(result.data?.response?.read&&result.data.response.complete===false){
       const wire=result,expected=wire.data.response.source_result_sha256;
       await writeFile(record+".wire-result.json",JSON.stringify(wire),{mode:0o600});
-      const read=wire.data.response.read.input;
+      const pointer=wire.data.response.read;
+      const read=pointer.action==="hetu.collaboration.invoke"?pointer.input:{action:pointer.action,input:pointer.input};
       if(name==="hetu_plugins_capabilities"){
         // 宿主动作按调用前精确发现；此处只读取本专业包合同，避免回读全部Core Schema。
         const actions=await readView(read.action,read.input,expected,"/actions");
