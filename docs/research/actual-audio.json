@@ -1,0 +1,11 @@
+{
+  "sha256": "c2642b3508d629f9b5d1f520ec74798184cb910a496d47732b62da385724934f",
+  "sample_rate": 8000,
+  "channels": 1,
+  "frames": 24000,
+  "duration_ms": 3000,
+  "selected_source_samples_byte_identical": true,
+  "silence_ms": 500,
+  "second_chapter_start_seconds": 1.5,
+  "fixture": "合成测试音，不含真实采访语音。"
+}

@@ -1,0 +1,173 @@
+{
+  "recorded_at": "2026-11-19",
+  "entry": "当前Codex经公开0.12.6 CLI连续操作；既有MCP热发现另行登记",
+  "host_version": "0.12.6",
+  "work_ref": {
+    "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+    "kind": "novel",
+    "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+  },
+  "package_sha256": "3a58fe327df83001b35b4363a0edcf7b6149840fcce74ed7da92b13c17386c79",
+  "original": {
+    "object_id": "ext_381a55a9-1364-4117-82ce-d49ba2651538",
+    "revision": 1,
+    "sha256": "f5ca313c1b815032e1b5a7defb4d6431f9e819227a37f7adc61d8778c86e5f03"
+  },
+  "revised": {
+    "object_id": "ext_381a55a9-1364-4117-82ce-d49ba2651538",
+    "revision": 3,
+    "sha256": "53ea4c87b2d91759f0a3125551036134941fa0f9ee976e2078972cc149f76ed5"
+  },
+  "source_refs": [
+    {
+      "kind": "resource",
+      "work_ref": {
+        "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+        "kind": "novel",
+        "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+      },
+      "resource_id": "resource_a63accbe-aaed-43b4-a4ea-374c19294312",
+      "revision": 1,
+      "sha256": "a7cb26cf292c75deeebcfb709363ac785fbe0b73b7efc12eb166a9366c49ba8c"
+    },
+    {
+      "kind": "asset",
+      "work_ref": {
+        "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+        "kind": "novel",
+        "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+      },
+      "asset_id": "asset_7f39d897-4595-4c36-baeb-eeac4e54fbc2",
+      "revision": 1,
+      "sha256": "0151a8bf9fb15448049ced433d3ecd3089fb39d07da6573a604e41164bab290e"
+    }
+  ],
+  "original_operation_preserved": true,
+  "previous_revision_preserved": true,
+  "other_states_preserved": 35,
+  "existing_objects_read": 1,
+  "checks_before_review": {
+    "basis_ref": {
+      "object_id": "ext_381a55a9-1364-4117-82ce-d49ba2651538",
+      "owner_plugin_id": "org.wordflowlab.podcast-studio",
+      "revision": 2,
+      "sha256": "7727dc020e9588f62bbcdded13d1f1bf26a6e807aa265debd1c75c252132996a"
+    },
+    "note": "台本、实际声音和作者听审分别保留。",
+    "project_ref": {
+      "object_id": "ext_381a55a9-1364-4117-82ce-d49ba2651538",
+      "revision": 2,
+      "sha256": "7727dc020e9588f62bbcdded13d1f1bf26a6e807aa265debd1c75c252132996a"
+    },
+    "stale_edition_ids": [
+      "linear",
+      "reverse"
+    ],
+    "stale_note_ids": [
+      "note"
+    ],
+    "unrecorded_section_ids": [],
+    "unused_cue_ids": []
+  },
+  "checks_after": {
+    "basis_ref": {
+      "object_id": "ext_381a55a9-1364-4117-82ce-d49ba2651538",
+      "owner_plugin_id": "org.wordflowlab.podcast-studio",
+      "revision": 3,
+      "sha256": "53ea4c87b2d91759f0a3125551036134941fa0f9ee976e2078972cc149f76ed5"
+    },
+    "note": "台本、实际声音和作者听审分别保留。",
+    "project_ref": {
+      "object_id": "ext_381a55a9-1364-4117-82ce-d49ba2651538",
+      "revision": 3,
+      "sha256": "53ea4c87b2d91759f0a3125551036134941fa0f9ee976e2078972cc149f76ed5"
+    },
+    "stale_edition_ids": [
+      "reverse"
+    ],
+    "stale_note_ids": [
+      "note"
+    ],
+    "unrecorded_section_ids": [],
+    "unused_cue_ids": []
+  },
+  "upstream_basis": [
+    {
+      "owner_plugin_id": "org.wordflowlab.documentary-studio",
+      "object_id": "ext_2b4d64dd-4946-41ec-8ffc-343549ffa140",
+      "revision": 3,
+      "sha256": "0cbc21658d0a5834d3ba4d68ff890c1d7e2818ee10c29b3b33e5972c93066558"
+    }
+  ],
+  "adopted": false,
+  "finalized": false,
+  "fixture": "原创虚构采访文字与合成测试音，不含真实采访语音或事实认证",
+  "original_work_fixed_ref": {
+    "revision_ref": {
+      "revision": 1
+    },
+    "sha256": "6577f6a191a8b6889c1c769db9f18e6afeb47e07359c92b47f259514ad33aaaf",
+    "work_ref": {
+      "kind": "novel",
+      "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac",
+      "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875"
+    }
+  },
+  "original_work_record_unchanged": true,
+  "continuation": {
+    "task_kind": "chapter_draft",
+    "fixed_input_refs": [
+      {
+        "kind": "resource",
+        "work_ref": {
+          "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+          "kind": "novel",
+          "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+        },
+        "resource_id": "resource_a63accbe-aaed-43b4-a4ea-374c19294312",
+        "revision": 1,
+        "sha256": "a7cb26cf292c75deeebcfb709363ac785fbe0b73b7efc12eb166a9366c49ba8c"
+      },
+      {
+        "kind": "resource",
+        "work_ref": {
+          "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+          "kind": "novel",
+          "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+        },
+        "resource_id": "resource_fd9a7514-4d18-41fd-a8a1-b1dde7e4af4c",
+        "revision": 1,
+        "sha256": "33aa00ebae7b9b4a7a60ecd0dfbd2147ffd9d951eca18aa7c222666bd904bf2b"
+      }
+    ],
+    "context_full_bytes_verified": true,
+    "candidate_saved_and_read": true,
+    "adopted": false
+  },
+  "mcp": {
+    "connected_host_version": "0.12.3",
+    "hot_discovered_without_client_restart": true,
+    "methods": [
+      {
+        "resource": "SKILL.md",
+        "status": "succeeded",
+        "sha256": "8c265f70ed00cc0942b74288b4d1f0db79e260e466acaca17bb9575452a9e1ee",
+        "matches_package": true
+      },
+      {
+        "resource": "references/workflows.md",
+        "status": "succeeded",
+        "sha256": "3870846a6842b1849c5d2d0e095d40d69ceb8223376c2dcdf9dac8b161f4a373",
+        "matches_package": true
+      },
+      {
+        "resource": "references/operations.md",
+        "status": "succeeded",
+        "sha256": "16b3a91d3ff66511fadc0f2706f46386acfdf3a8b19f69b9aa74a156470b9446",
+        "matches_package": true
+      }
+    ],
+    "revised_read_and_sha256_verified": true,
+    "read_revision": 3
+  }
+}
